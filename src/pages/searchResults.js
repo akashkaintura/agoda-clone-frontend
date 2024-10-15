@@ -1,7 +1,7 @@
 import React from 'react';
 import PropertyCard from '../components/PropertyCard';
 
-const SearchResults = ({ properties }) => {
+const SearchResults = ({ properties = [] }) => {  // Set default to an empty array
     return (
         <div className="container mx-auto p-4">
             <h2 className="text-3xl font-bold mb-4">Search Results</h2>
